@@ -5,7 +5,7 @@ const {
     createStudent,
     updateStudent,
     deleteStudent
-} = require('../controllers/studentController');
+} = require('../controllers/manager');
 
 // Create router object
 const router = express.Router();
